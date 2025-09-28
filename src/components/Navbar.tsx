@@ -42,6 +42,9 @@ const Navbar = () => {
             <Button variant="ghost" className="text-white hover:bg-white/10">
               Sign In
             </Button>
+            <Button variant="outline" className="text-white border-white/20 hover:bg-white/10">
+              Sign Up
+            </Button>
             <Button variant="hero" size="sm">
               Get Started
             </Button>
@@ -73,6 +76,9 @@ const Navbar = () => {
               <div className="flex flex-col gap-2 pt-4 border-t border-white/20">
                 <Button variant="ghost" className="text-white hover:bg-white/10 justify-start">
                   Sign In
+                </Button>
+                <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 justify-start">
+                  Sign Up
                 </Button>
                 <Button variant="hero" size="sm">
                   Get Started
