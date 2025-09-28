@@ -42,12 +42,8 @@ const HeroSection = () => {
         
         {/* Dynamic headline with staggered animation */}
         <div className="space-y-4 mb-8">
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold leading-tight animate-scale-in">
-            <span className="block text-white">Create</span>
-            <span className="block bg-gradient-to-r from-hero-accent via-white to-hero-secondary bg-clip-text text-transparent">
-              Something
-            </span>
-            <span className="block text-white">Extraordinary</span>
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold leading-tight animate-scale-in text-white">
+            HELLO!
           </h1>
         </div>
         
